@@ -28,7 +28,7 @@ make
 ~~~
 
 ## Sample Result on Ubuntu
-![Multithreading-Ubuntu](https://github.com/user-attachments/assets/5218497a-ef44-4f2d-b950-7ddb8592fe68)
+![screenshotUbuntu](https://github.com/user-attachments/assets/236cf411-348a-4142-bdc1-98aecb352e89)
 
 ## Sample Result on Windows
-![Multithreading-Windows](https://github.com/user-attachments/assets/510d903b-f23c-494b-ba98-f3c2f3e02240)
+![screenshotWindows](https://github.com/user-attachments/assets/5d1340e1-36fb-4467-9dd8-ac61e6b0b51c)
