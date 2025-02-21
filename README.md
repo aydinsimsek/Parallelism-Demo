@@ -1,5 +1,6 @@
 ## Method    
-In parallel execution, each processor on the system is utilized for calculating a specific chunk of the matrix multiplication.
+In parallel execution, each processor on the system is utilized for calculating a specific chunk of the matrix multiplication.      
+My system has 4 physical cores and 8 logical processors (via Hyper-Threading), therefore ```std::thread::hardware_concurrency()``` indicates that up to 8 threads can run in parallel on my system.       
 
 ## Build Steps
 
@@ -13,7 +14,7 @@ cd build
 ~~~ 
 cmake -G "MinGW Makefiles" .. 
 ~~~  
-* Unix-based systems:
+* Unix-like systems:
 ~~~ 
 cmake .. 
 ~~~ 
@@ -22,7 +23,7 @@ cmake ..
 ~~~ 
 mingw32-make 
 ~~~  
-* Unix-based systems:
+* Unix-like systems:
 ~~~ 
 make 
 ~~~
